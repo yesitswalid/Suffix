@@ -1,0 +1,16 @@
+name: Suffix
+author: ExZeEZ
+version: 1.0
+api: 3.9.3
+main: Suffix\Main
+description: Add a Suffix to your name!
+
+commands:
+  addtag:
+    permission: "suffix.addtag"
+    description: "Add a suffix to the game"
+    usage: "/addtag"
+  tag:
+    permission: "suffix.tag"
+    description: "Add a tag to you or a players name!"
+    usage: "/tag"
